@@ -1,0 +1,31 @@
+@startuml
+
+title Online Shopping System
+left to right direction
+actor Customer
+actor Seller
+actor DeliveryPerson
+rectangle Authentication{
+    (Customer) -- (Register as a User)
+    (Customer) -- (Login to your Account)
+}
+rectangle Purchase{
+(Customer) -- (Browse Products)
+(Customer) -- (Verify availability)
+(Customer) -- (Add to Cart) :Request
+(Customer) -- (Remove from Cart) :Request
+(Customer) -- (Place Order)
+(Customer) -- (Make Payment)
+(Customer) -- (Get the Product) : DeliveryPerson to Customer
+}
+rectangle SellerFunction{   
+(Seller) -- (Check for the product availability): In Stock 
+(Seller) -- (Add to Cart) :Response
+(Seller) -- (Verify availability)
+(Seller) -- (Verify Payment)
+(Seller) -- (Send the product) : To DeliveryPerson
+}
+(DeliveryPerson) -- (Send the product) :To customer
+(DeliveryPerson) -- (Verify Address of the Customer)
+(DeliveryPerson) -- (Get the Product) : From Seller to Customer
+@enduml
