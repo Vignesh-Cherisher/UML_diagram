@@ -10,12 +10,15 @@ User class
 The Customer class 
     
             - The Customer class will contain ShoppingCart and Orders as child classes with multiple Orders and a single Shopping cart associated. Since The Customer class cannot exist without the User class, It is dependent on the User Class.
+            
 ShoppingCart class 
     
             - Each Customer do contain one Shopping cart while Each Shopping Cart can be associated only with a single Customer. Since A shopping Cart cannot exist without a Customer class, It exhibits dependency relationshiop. 
+            
 Order Class 
             
             - Order class models Associative relationship with its Parent Class. Each Order will contain an Order Detail as well as a ShoppingInfo as its child classes.
+            
 OrderDetails and ShippingInfo 
     
             - Both the classes cannot exist without and Order class and hence potray composition relationship with its parent class.
