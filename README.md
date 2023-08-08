@@ -1,10 +1,11 @@
-#UML CLASS DIAGRAM FOR ONLINE SHOPPING SYSTEM#
+# UML CLASS DIAGRAM FOR ONLINE SHOPPING SYSTEM #
 
-##CLASS DIAGRAM##
+## CLASS DIAGRAM ##
 In software engineering, a class diagram in the Unified Modeling Language (UML) is a type of static structure diagram that describes the structure of a system by showing the system's classes, their attributes, operations (or methods), and the relationships among objects. A Class Diagram for an ideal Online Shopping System website/Applicaton is shown through plantuml code. Most classes in the design display Hierarchical Inheritance with some exceptions. 
 
 User class 
-    - The design of Class Diagram for Online Shopping System has a User class that works as the base class for all the subclasses to be inherited. Since there can be multiple Customers and Administrators, The User class is designed to be inherited several times.
+    
+            - The design of Class Diagram for Online Shopping System has a User class that works as the base class for all the subclasses to be inherited. Since there can be multiple Customers and Administrators, The User class is designed to be inherited several times.
 
 The Customer class 
     - The Customer class will contain ShoppingCart and Orders as child classes with multiple Orders and a single Shopping cart associated. Since The Customer class cannot exist without the User class, It is dependent on the User Class.
@@ -15,9 +16,9 @@ Order Class
 OrderDetails and ShippingInfo 
     - Both the classes cannot exist without and Order class and hence potray composition relationship with its parent class.
 
-#UML USECASE DIAGRAM FOR ONLINE SHOPPING SYSTEM
+# UML USECASE DIAGRAM FOR ONLINE SHOPPING SYSTEM
 
-##USECASE DIAGRAM
+## USECASE DIAGRAM
  
 A use case diagram is usually simple. It does not show the detail of the use cases:
 
@@ -25,7 +26,7 @@ A use case diagram is usually simple. It does not show the detail of the use cas
 
 - It does not show the order in which steps are performed to achieve the goals of each use case.
 
-###DEVELOPED USECASE DIAGRAM
+### DEVELOPED USECASE DIAGRAM
 
 The system is described with three actors Customer, Seller and the Delivery Person.
 
@@ -65,13 +66,13 @@ The workflow is abstracted according to the actor. The flow of the system is muc
 
 
 
-#UML SEQUENCE DIAGRAM FOR ONLINE SHOPPING SYSTEM
+# UML SEQUENCE DIAGRAM FOR ONLINE SHOPPING SYSTEM
 
-##SEQUENCE DIAGRAM
+## SEQUENCE DIAGRAM
 
 A sequence diagram is a type of interaction diagram because it describes how—and in what order—a group of objects works together.
 
-###DEVELOPED SEQUENCE DIAGRAM
+### DEVELOPED SEQUENCE DIAGRAM
 
 The Sequence diagram is being used to explain how to place  order in the shopping app. At first, the user sees for a item from the Menu, which is being displayed over the screen. Then the user adds the needed item to the cart. 
 
