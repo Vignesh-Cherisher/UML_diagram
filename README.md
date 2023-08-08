@@ -1,7 +1,11 @@
 # UML CLASS DIAGRAM FOR ONLINE SHOPPING SYSTEM #
 
 ## CLASS DIAGRAM ##
-In software engineering, a class diagram in the Unified Modeling Language (UML) is a type of static structure diagram that describes the structure of a system by showing the system's classes, their attributes, operations (or methods), and the relationships among objects. A Class Diagram for an ideal Online Shopping System website/Applicaton is shown through plantuml code. Most classes in the design display Hierarchical Inheritance with some exceptions. 
+In software engineering, a class diagram in the Unified Modeling Language (UML) is a type of static structure diagram that describes the structure of a system by showing the system's classes, their attributes, operations (or methods), and the relationships among objects.
+
+## Developed Class Diagram ##
+
+A Class Diagram for an ideal Online Shopping System website/Applicaton is shown through plantuml code. Most classes in the design display Hierarchical Inheritance with some exceptions. 
 
 User class 
     
