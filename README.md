@@ -102,3 +102,8 @@ Payment Gateway
 Order Confirmation 
     
             - After the payment is done,  the order gets confirmed. Then it shows a thumbs-up icon on user's screen, which shows that the order has got confirmed. It also shows the expected date of delivery.
+
+- Done by
+  Sabari Santhosh 
+  Subhasri P
+  Vignesh Shivaram M
